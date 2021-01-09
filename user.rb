@@ -4,6 +4,18 @@ class User
     def initialize(name)
       @name = name
     end
+
+    def rename_to_bob
+        name = 'Bob'
+    end
+
+    def rename_to_carol
+        self.name = 'Carol'
+    end
+
+    def rename_to_dave
+        @name = 'Dave'
+    end
     
     def hello
         #selfなし
@@ -21,7 +33,7 @@ class User
     end
 
     user = User.new('Alice')
-    user.Hello
+    user.hello
     user.hi
     user.my_name
 end
