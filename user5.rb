@@ -17,8 +17,10 @@ class User
     end
 end
 
-alice = User.new('alice',50)
-bob = User.new('bob',60)
+puts alice = User.new('alice',50)
+puts bob = User.new('bob',60)
 
-alice.heavier_than?(bob)
-bob.heavier_than?(alice)
+puts alice.heavier_than?(bob)
+puts bob.heavier_than?(alice)
+
+puts alice.weight
